@@ -24,4 +24,6 @@ def cbrt(l):
         
 def modulo(m, n):
     print(m % n)
-        
+    
+def percentage(o, p):
+	print(o*(p/100))
