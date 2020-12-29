@@ -27,3 +27,6 @@ def modulo(m, n):
     
 def percentage(o, p):
 	print(o*(p/100))
+
+def exp(q, r):
+    print(x**(y))
