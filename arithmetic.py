@@ -37,5 +37,9 @@ except ZeroDivisionError:
 
 except ValueError:
     print('Invalid Input')
+    
 except TypeError:
+    print('Invalid Input')
+    
+except NameError:
     print('Invalid Input')
