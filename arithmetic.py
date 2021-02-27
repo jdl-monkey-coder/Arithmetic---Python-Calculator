@@ -31,6 +31,12 @@ try:
 
     def exp(q, r):
         print(q**(r))
+        
+    def pythagorean(height, base):
+        return ((height**2)+(base**2))**(1/2)
+
+    def triangle_area(height, base):
+        return (height*base)/2
 
 except ZeroDivisionError:
     print('Undefined')
